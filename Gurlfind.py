@@ -23,7 +23,7 @@ def banner():
 
 banner()
 
-qu = input("Enter your query: ")
+qu = input("\nEnter your query: ")
 
 try:
     from googlesearch import search
