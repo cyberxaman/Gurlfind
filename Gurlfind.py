@@ -1,4 +1,6 @@
-# clear
+import os
+
+# clear the console screen
 if os.name == 'nt':
     os.system('cls')
 else:
@@ -21,13 +23,13 @@ def banner():
 
 banner()
 
-
 qu = input("Enter your query: ")
 
 try:
     from googlesearch import search
 except ImportError:
-    print("No module named 'google' found")
+    print("Error: the 'googlesearch' module is not installed. Please install it and try again.")
+    quit()
  
 # to search
 query = qu
