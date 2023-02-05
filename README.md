@@ -17,15 +17,15 @@ google search using GurlFind. this tool find 1000+ URLs as per your query
 
 
 ```bash
-git clone https://github.com/cyberxaman/YoutDetails.git
-cd YoutDetails
+git clone https://github.com/cyberxaman/Gurlfind.git
+cd Gurlfind
 bash setup.sh
 ```
 
 ## How To Use 
 
 ```bash
-python3 Youtdetails.py
+python3 Gurlfind.py
  ```
 
 Enter your query or website name. The script will returns Urls.
