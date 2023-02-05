@@ -28,5 +28,5 @@ bash setup.sh
 python3 Youtdetails.py
  ```
 
-Enter your query. The script will return the Urls.
+Enter your query or website name. The script will returns Urls.
 
