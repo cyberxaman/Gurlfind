@@ -4,8 +4,8 @@
 # Function to install the requirements
 requirement(){
     if command -v apt-get &> /dev/null; then
-        sudo apt-get install python -y
-        sudo apt-get install python3 -y
+        apt-get install python -y
+        apt-get install python3 -y
     elif command -v yum &> /dev/null; then
         sudo yum install python -y
         sudo yum install python3 -y
