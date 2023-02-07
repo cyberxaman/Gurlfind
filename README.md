@@ -19,7 +19,8 @@ google search using GurlFind. this tool find 1000+ URLs as per your query
 ```bash
 git clone https://github.com/cyberxaman/Gurlfind.git
 cd Gurlfind
-bash setup.sh
+chmod +x *
+./setup.sh
 ```
 
 ## Linux Installation
@@ -28,6 +29,7 @@ bash setup.sh
 ```bash
 git clone https://github.com/cyberxaman/Gurlfind.git
 cd Gurlfind
+chmod +x *
 sudo ./setup.sh
 ```
 
