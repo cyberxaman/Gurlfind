@@ -13,13 +13,22 @@ google search using GurlFind. this tool find 1000+ URLs as per your query
 • BeautifulSoup
 
 • google
-## Installation
+## Termux Installation
 
 
 ```bash
 git clone https://github.com/cyberxaman/Gurlfind.git
 cd Gurlfind
 bash setup.sh
+```
+
+## Linux Installation
+
+
+```bash
+git clone https://github.com/cyberxaman/Gurlfind.git
+cd Gurlfind
+sudo ./setup.sh
 ```
 
 ## How To Use 
