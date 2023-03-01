@@ -36,7 +36,7 @@ sudo ./setup.sh
 ## How To Use 
 
 ```bash
-python3 Gurlfind.py -q your_query -o result.txt
+python3 Gurlfind.py -q "your_query" -o result.txt
  ```
 
 Enter your query or website name. The script will returns Urls.
